@@ -1,5 +1,8 @@
-require "email_address_parser/version"
+require 'email_address_parser/version'
+require 'email_address_parser/parser'
 
 module EmailAddressParser
-  # Your code goes here...
+  def self.new(*args)
+    Parser.new(*args)
+  end
 end
