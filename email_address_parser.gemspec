@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Abdulwahaab Ahmed"]
   spec.email         = ["abdulwahaab.ahmed710@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Email address parser}
+  spec.description   = %q{Email address parser, is a parser that will get you the domain name of an email}
+  spec.homepage      = "https://github.com/Abdulwahaab710/email_address_parser"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
