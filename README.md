@@ -22,7 +22,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'email_address_parser'
+email_address = EmailAddressParser.new 'some.username@somedomain.com'
+
+email_address.domain_name
+# => "somedomain.com"
+
+email_address.username
+# => "some.username"
+```
 
 ## Development
 
