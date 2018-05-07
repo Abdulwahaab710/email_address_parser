@@ -7,7 +7,6 @@ Gem::Specification.new do |spec|
   spec.name          = "email_address_parser"
   spec.version       = EmailAddressParser::VERSION
   spec.authors       = ["Abdulwahaab Ahmed"]
-  spec.email         = ["abdulwahaab.ahmed710@gmail.com"]
 
   spec.summary       = %q{Email address parser}
   spec.description   = %q{Email address parser, is a parser that will get you the domain name of an email}
